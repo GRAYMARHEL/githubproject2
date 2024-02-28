@@ -29,7 +29,7 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/serveices', function () {
+Route::get('/services', function () {
     return view('services');
 });
 
@@ -47,4 +47,8 @@ Route::get('/services3', function () {
 
 Route::get('/login', function () {
     return view('login');
+});
+
+Route::get('/try', function () {
+    return view('try');
 });
