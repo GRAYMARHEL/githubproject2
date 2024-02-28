@@ -10,6 +10,15 @@
 
 
 <style>
+body{
+  background-image:url("images/gong.avif");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:100% 100%;
+}
+
+
 
 
 
