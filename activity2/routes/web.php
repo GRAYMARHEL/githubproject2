@@ -44,3 +44,7 @@ Route::get('/services2', function () {
 Route::get('/services3', function () {
     return view('services3');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});

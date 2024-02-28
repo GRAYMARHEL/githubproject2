@@ -10,25 +10,19 @@
 
 
 <style>
-body{
+/* body{
   background-image:url("images/gong.avif");
   background-position:center;
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-size:100% 100%;
+} */
+
+body{
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+        font-family: 'Poppins', sans-serif;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </style>
