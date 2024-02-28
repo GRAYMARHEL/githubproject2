@@ -20,3 +20,27 @@ Route::get('/welcome', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/serveices', function () {
+    return view('services');
+});
+
+Route::get('/services1', function () {
+    return view('services1');
+});
+
+Route::get('/services2', function () {
+    return view('services2');
+});
+
+Route::get('/services3', function () {
+    return view('services3');
+});
