@@ -12,7 +12,7 @@
 
     <style>
          body{
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+        background-color: #222125;
     }
     </style>
 
@@ -24,30 +24,41 @@
 
     
         
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+   
+      <div class="container">
+        <a class="navbar-brand" href="#">
+        <img class="logo" src="{{asset('images/pic1.png')}}" alt="" width="70" height="70">
+        Dota 2 Heroes
+     
+
+        </a>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/home">Home</a>
+              <a  class="nav-link active" aria-current="page" href="/home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/services">Services</a>
+              <a class="nav-link active" href="/contact">Contact Us</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
+              <a class="nav-link active" href="/about">About Us</a>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Service
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Services
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/services1">Services1</a></li>
+                <li><a class="dropdown-item" href="services1">Services1</a></li>
                 <li><a class="dropdown-item" href="/services2">Services2</a></li>
                 <li><a class="dropdown-item" href="/services3">Services3</a></li>
               </ul>
