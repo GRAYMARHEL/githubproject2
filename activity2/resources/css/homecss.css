@@ -1,0 +1,28 @@
+body{
+    background-color: #222125;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+h1 {
+  align-self: center;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+p {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 300;
+  font-family: "Radiance", "Noto Sans", sans-serif;
+}
