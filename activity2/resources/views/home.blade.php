@@ -52,9 +52,23 @@
       justify-content:center ;
       display:text;
       padding:10px;
-
+      border-radius:35px;
     }
 
+    .logo1{
+      justify-content:center;
+      display:flex;
+    }
+
+    .box:hover{
+      transform:scale(1.2);
+      transition:0.5s;
+    }
+
+    .baba{
+      justify-content:center;
+      display:block;
+    }
   
 
  
@@ -132,29 +146,8 @@
   
   
   </br></br></br>
-<!-- dota2 heroes -->
 
-  <!-- <div class="logo2"> 
-   <a class="heroes1" href="#">
-  <img class="logo" src="{{asset('images/abaddon.png')}}" alt="">&nbsp;
-  <img class="logo" src="{{asset('images/alchemist.png')}}" alt="">&nbsp;
- <img class="logo" src="{{asset('images/ancient.png')}}" alt="" >&nbsp;
- <img class="logo" src="{{asset('images/antimage.png')}}" alt="" >&nbsp;
-  <img class="logo" src="{{asset('images/arc.png')}}" alt="" >&nbsp;
-  
-
-  </div>
-
-  <div class="logo2"> 
-   <a class="heroes1" href="#">
-        <img class="logo" src="{{asset('images/axe.png')}}" alt="" >&nbsp;
-        <img class="logo" src="{{asset('images/bane.png')}}" alt="" >&nbsp;
-        <img class="logo" src="{{asset('images/bat.png')}}" alt="" >&nbsp;
-        <img class="logo" src="{{asset('images/beastmaster.png')}}" alt="" >&nbsp;
-        <img class="logo" src="{{asset('images/bloodseeker.png')}}" alt="" >      
-    </a>
-  </div> -->
-  <div class="logo2"> 
+ 
     <div class="logo1">
                 <img class="box" src="images/abaddon.png" alt="">
                 <img class="box" src="images/alchemist.png" alt="">
@@ -162,9 +155,7 @@
                 <img class="box" src="images/antimage.png" alt="">
                 <img class="box" src="images/arc.png" alt="">
     </div> 
-  </div>    
-
-  <div class="logo2"> 
+  
     <div class="logo1">
                 <img class="box" src="images/axe.png" alt="">
                 <img class="box" src="images/bane.png" alt="">
@@ -172,7 +163,72 @@
                 <img class="box" src="images/beastmaster.png" alt="">
                 <img class="box" src="images/bloodseeker.png" alt="">
     </div> 
-  </div>    
+
+    <div class="logo1">
+                <img class="box" src="images/bounty.png" alt="">
+                <img class="box" src="images/brewmaster.png" alt="">
+                <img class="box" src="images/bristleback.png" alt="">
+                <img class="box" src="images/broodmother.png" alt="">
+                <img class="box" src="images/centaur.png" alt="">
+    </div> 
+
+    <div class="logo1">
+                <img class="box" src="images/chaos.png" alt="">
+                <img class="box" src="images/chen.png" alt="">
+                <img class="box" src="images/Clinkz.png" alt="">
+                <img class="box" src="images/Clockwerk.png" alt="">
+                <img class="box" src="images/Crystal.png" alt="">
+    </div> 
+    
+    <div class="logo1">
+                <img class="box" src="images/dark.png" alt="">
+                <img class="box" src="images/darkwillow.png" alt="">
+                <img class="box" src="images/Dawnbreaker.png" alt="">
+                <img class="box" src="images/Dazzle.png" alt="">
+                <img class="box" src="images/death.png" alt="">
+    </div> 
+
+    <br>    <br>    <br>    <br>   
+    
+    
+    
+    <div class="container pt-5 pb-5">
+                <div class="row text-white">
+                    <div class="col-md">
+                        <a class="navbar-brand" href="home"><img class="img-fluid" src="images/pic1.png" alt="IAS " width="70" height="70"></a>
+                        <h3>DOTA 2</h3>
+                        <p style="text-align: justify;">Dota and the Dota logo are trademarks and/or registered trademarks of Valve Corporation. 2023 Valve Corporation, all rights reserved.</p>
+                    </div>  
+
+                    <div class="col-md">
+                        <h3>Quick Links</h3>
+                        <ul class="" style="list-style: none;">
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/services">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <h3>Follow Us</h3>
+                        <button type="button" class="btn btn-outline-primary">Facebook</button>
+                        <button type="button" class="btn btn-outline-info">Twitter</button>
+                        <button type="button" class="btn btn-outline-warning">Instagran</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid pt-3 bg-primary">
+            <div class="row text-center">
+                <div class="col">
+                    <p class="text-white">Powered by <a href="https://laravel.com/" class="text-white">Laravel</a></p>
+                </div>
+            </div>
+        </div>
+
+
+            
+  
+
 
 
 
