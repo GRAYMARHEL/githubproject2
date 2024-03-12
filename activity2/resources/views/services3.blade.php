@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+   
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?f amily=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/homecss.css">
 
-    <style>
-         body{
-        background-color: #222125;
-    }
-    </style>
-
+   
 
 
 
@@ -27,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
    
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home">
         <img class="logo" src="{{asset('images/pic1.png')}}" alt="" width="70" height="70">
         Dota 2 Heroes
      
@@ -50,7 +51,7 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link active" href="/about">About Us</a>
+              <a class="nav-link active" href="#footer">About Us</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -73,8 +74,55 @@
         </div>
       </div>
     </nav>
+
     
-      
-    <!-- End Example Code -->
+
+  <main class="container text-white">
+
+   
+    <h1>SERVICES 3</h1>
+  </main>
+  
+  
+  </br></br></br> </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+ 
+
+
+    
+    <!-- footer -->
+    
+<footer id="footer">
+
+<p class="text">Dota and the Dota logo are trademarks and/or registered trademarks of Valve <br> Corporation. 2023 Valve Corporation, all rights reserved.</p> <br>
+  <a href="https://en.wikipedia.org/wiki/Dota_2">
+    <img src="images/footerlogo.png" alt="">
+   
+  </a>
+
+  
+            
+</footer>
+
+            
+
+
+       
+
+
+            
+  
+
+
+
+
+
+
+
+
+
+
+    
+</div>  
   </body>
 </html>

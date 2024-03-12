@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+   
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?f amily=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/homecss.css">
 
-    <style>
-         body{
-        background-color: #222125;
-    }
-    </style>
-
+   
 
 
 
@@ -27,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
    
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home">
         <img class="logo" src="{{asset('images/pic1.png')}}" alt="" width="70" height="70">
         Dota 2 Heroes
      
@@ -50,7 +51,7 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link active" href="/about">About Us</a>
+              <a class="nav-link active" href="#footer">About Us</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -73,8 +74,190 @@
         </div>
       </div>
     </nav>
+
     
-      
-    <!-- End Example Code -->
+
+  <main class="container text-white">
+
+    <p>From magical tacticians to fierce brutes and cunning rogues, Dota 2's hero pool is massive and limitlessly diverse. </br>  Unleash incredible abilities and devastating ultimates on your way to victory.</p>
+    <h1>CHOOSE YOUR HERO</h1>
+  </main>
+  
+  
+  </br></br></br>
+
+<div class="main">
+  
+<div class="card-list">
+
+<div class="card-container">
+  <img class="box" src="images/abaddon.png" alt="">   
+  <div class="bobo">ABADDON</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/alchemist.png" alt="">   
+  <div class="bobo">ALCHEMIST</div>
+</div>
+
+<div class="card-container">
+ <img class="box" src="images/ancient.png" alt="">   
+  <div class="bobo">APPA</div>
+</div>
+
+<div class="card-container">
+<img class="box" src="images/antimage.png" alt="">
+  <div class="bobo">ANTI-MAGE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/arc.png" alt="">
+  <div class="bobo">ARC WARDEN</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/axe.png" alt="">
+  <div class="bobo">AXE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bane.png" alt="">
+  <div class="bobo">BANE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bat.png" alt="">
+  <div class="bobo">BATRIDER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/beastmaster.png" alt="">
+  <div class="bobo">BEASTMASTER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bloodseeker.png" alt="">
+  <div class="bobo">BLOODSEEKER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bounty.png" alt="">
+  <div class="bobo">BOUNTY</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/brewmaster.png" alt="">
+  <div class="bobo">BREWMASTER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bristleback.png" alt="">
+  <div class="bobo">BRISTLEBACK</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/broodmother.png" alt="">
+  <div class="bobo">BROODMOTHER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/centaur.png" alt="">
+  <div class="bobo">CENTAUR</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/chaos.png" alt="">
+  <div class="bobo">CHAOS</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/chen.png" alt="">
+  <div class="bobo">CHEN</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Clinkz.png" alt="">
+  <div class="bobo">CLINKZ</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Clockwerk.png" alt="">
+  <div class="bobo">CLOCKWERK</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Crystal.png" alt="">
+  <div class="bobo">CRYSTAL MAIDEN</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/dark.png" alt="">
+  <div class="bobo">DARK SEER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/darkwillow.png" alt="">
+  <div class="bobo">DARKWILLOW</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Dawnbreaker.png" alt="">
+  <div class="bobo">DAWNBREAKER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Dazzle.png" alt="">
+  <div class="bobo">DAZZLE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/death.png" alt="">
+  <div class="bobo">DEATH PROPHET</div>
+</div>
+
+
+
+
+</div>
+</div>
+
+
+ 
+    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>     
+    
+    <!-- footer -->
+    
+<footer id="footer">
+
+<p class="text">Dota and the Dota logo are trademarks and/or registered trademarks of Valve <br> Corporation. 2023 Valve Corporation, all rights reserved.</p> <br>
+  <a href="https://en.wikipedia.org/wiki/Dota_2">
+    <img  src="images/footerlogo.png" alt="">
+   
+  </a>
+
+  
+            
+</footer>
+
+            
+
+
+       
+
+
+            
+  
+
+
+
+
+
+
+
+
+
+
+    
+</div>  
   </body>
 </html>

@@ -13,71 +13,10 @@
       <!-- fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?f amily=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/homecss.css">
 
-
-    <style>
-         body{
-        background-color: #222125;
-        font-family: "Merriweather", serif;
-        font-weight: 300;
-        font-family: "Radiance", "Noto Sans", sans-serif;
-    }
-
-
-    
-    main {
-      display: flex;
-      flex-direction: column-reverse;
-      box-sizing: border-box;
-      justify-content: center;
-      padding-top: 5rem;
-      
-    }
-
-    h1 {
-      align-self: center;
-      font-size: 5rem;
-      font-weight: 700;
-    }
-
-    p {
-      text-align: center;
-      font-size: 19px;
-      font-weight: 300;
-    }
-
-
-    .box{
-      justify-content:center ;
-      display:text;
-      padding:10px;
-      border-radius:35px;
-    }
-
-    .logo1{
-      justify-content:center;
-      display:flex;
-    }
-
-    .box:hover{
-      transform:scale(1.2);
-      transition:0.5s;
-    }
-
-    .baba{
-      justify-content:center;
-      display:block;
-    }
-  
-
- 
-
-
-
-
-    </style>
-
+   
 
 
 
@@ -89,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
    
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home">
         <img class="logo" src="{{asset('images/pic1.png')}}" alt="" width="70" height="70">
         Dota 2 Heroes
      
@@ -108,11 +47,11 @@
               <a  class="nav-link active" aria-current="page" href="/home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/contact">Contact Us</a>
+              <a class="nav-link active" href="#contactus">Contact Us</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link active" href="/about">About Us</a>
+              <a class="nav-link active" href="#footer">About Us</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -147,83 +86,183 @@
   
   </br></br></br>
 
- 
-    <div class="logo1">
-                <img class="box" src="images/abaddon.png" alt="">
-                <img class="box" src="images/alchemist.png" alt="">
-                <img class="box" src="images/ancient.png" alt="">
-                <img class="box" src="images/antimage.png" alt="">
-                <img class="box" src="images/arc.png" alt="">
-    </div> 
+<div class="main">
   
-    <div class="logo1">
-                <img class="box" src="images/axe.png" alt="">
-                <img class="box" src="images/bane.png" alt="">
-                <img class="box" src="images/bat.png" alt="">
-                <img class="box" src="images/beastmaster.png" alt="">
-                <img class="box" src="images/bloodseeker.png" alt="">
-    </div> 
+<div class="card-list">
 
-    <div class="logo1">
-                <img class="box" src="images/bounty.png" alt="">
-                <img class="box" src="images/brewmaster.png" alt="">
-                <img class="box" src="images/bristleback.png" alt="">
-                <img class="box" src="images/broodmother.png" alt="">
-                <img class="box" src="images/centaur.png" alt="">
-    </div> 
+<div class="card-container">
+  <img class="box" src="images/abaddon.png" alt="">   
+  <div class="bobo">ABADDON</div>
+</div>
 
-    <div class="logo1">
-                <img class="box" src="images/chaos.png" alt="">
-                <img class="box" src="images/chen.png" alt="">
-                <img class="box" src="images/Clinkz.png" alt="">
-                <img class="box" src="images/Clockwerk.png" alt="">
-                <img class="box" src="images/Crystal.png" alt="">
-    </div> 
+<div class="card-container">
+  <img class="box" src="images/alchemist.png" alt="">   
+  <div class="bobo">ALCHEMIST</div>
+</div>
+
+<div class="card-container">
+ <img class="box" src="images/ancient.png" alt="">   
+  <div class="bobo">APPA</div>
+</div>
+
+<div class="card-container">
+<img class="box" src="images/antimage.png" alt="">
+  <div class="bobo">ANTI-MAGE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/arc.png" alt="">
+  <div class="bobo">ARC WARDEN</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/axe.png" alt="">
+  <div class="bobo">AXE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bane.png" alt="">
+  <div class="bobo">BANE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bat.png" alt="">
+  <div class="bobo">BATRIDER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/beastmaster.png" alt="">
+  <div class="bobo">BEASTMASTER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bloodseeker.png" alt="">
+  <div class="bobo">BLOODSEEKER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bounty.png" alt="">
+  <div class="bobo">BOUNTY</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/brewmaster.png" alt="">
+  <div class="bobo">BREWMASTER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/bristleback.png" alt="">
+  <div class="bobo">BRISTLEBACK</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/broodmother.png" alt="">
+  <div class="bobo">BROODMOTHER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/centaur.png" alt="">
+  <div class="bobo">CENTAUR</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/chaos.png" alt="">
+  <div class="bobo">CHAOS</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/chen.png" alt="">
+  <div class="bobo">CHEN</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Clinkz.png" alt="">
+  <div class="bobo">CLINKZ</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Clockwerk.png" alt="">
+  <div class="bobo">CLOCKWERK</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Crystal.png" alt="">
+  <div class="bobo">CRYSTAL MAIDEN</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/dark.png" alt="">
+  <div class="bobo">DARK SEER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/darkwillow.png" alt="">
+  <div class="bobo">DARKWILLOW</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Dawnbreaker.png" alt="">
+  <div class="bobo">DAWNBREAKER</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/Dazzle.png" alt="">
+  <div class="bobo">DAZZLE</div>
+</div>
+
+<div class="card-container">
+  <img class="box" src="images/death.png" alt="">
+  <div class="bobo">DEATH PROPHET</div>
+</div>
+
+
+</div>
+</div>
+
+
+ 
+    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    
     
-    <div class="logo1">
-                <img class="box" src="images/dark.png" alt="">
-                <img class="box" src="images/darkwillow.png" alt="">
-                <img class="box" src="images/Dawnbreaker.png" alt="">
-                <img class="box" src="images/Dazzle.png" alt="">
-                <img class="box" src="images/death.png" alt="">
-    </div> 
+   
 
-    <br>    <br>    <br>    <br>   
-    
-    
-    
-    <div class="container pt-5 pb-5">
-                <div class="row text-white">
-                    <div class="col-md">
-                        <a class="navbar-brand" href="home"><img class="img-fluid" src="images/pic1.png" alt="IAS " width="70" height="70"></a>
-                        <h3>DOTA 2</h3>
-                        <p style="text-align: justify;">Dota and the Dota logo are trademarks and/or registered trademarks of Valve Corporation. 2023 Valve Corporation, all rights reserved.</p>
-                    </div>  
 
-                    <div class="col-md">
-                        <h3>Quick Links</h3>
-                        <ul class="" style="list-style: none;">
-                            <li><a href="/contact">Contact Us</a></li>
-                            <li><a href="/about">About Us</a></li>
-                            <li><a href="/services">Services</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md">
-                        <h3>Follow Us</h3>
-                        <button type="button" class="btn btn-outline-primary">Facebook</button>
-                        <button type="button" class="btn btn-outline-info">Twitter</button>
-                        <button type="button" class="btn btn-outline-warning">Instagran</button>
-                    </div>
-                </div>
-            </div>
 
-            <div class="container-fluid pt-3 bg-primary">
+
+    <!-- footer -->
+    
+<footer id="footer">
+
+<p class="text">Dota and the Dota logo are trademarks and/or registered trademarks of Valve <br> Corporation. 2023 Valve Corporation, all rights reserved.</p> <br>
+  <a href="https://en.wikipedia.org/wiki/Dota_2">
+    <img  src="images/footerlogo.png" alt="">
+   
+  </a>
+
+</footer>
+
+<br><br><br><br>
+
+
+
+<div id="contactus">
+
+        <div class="container-fluid pt-3 bg-dark">
             <div class="row text-center">
                 <div class="col">
-                    <p class="text-white">Powered by <a href="https://laravel.com/" class="text-white">Laravel</a></p>
+                    <p class="text-white">Contact Us</p>
+                    <!-- <button class="btn success">Success</button> -->
+                    <a href="https://www.facebook.com/dota2/"><button type="button" class="btn btn-outline-primary">Facebook</button></a>
+                    <a href="https://twitter.com/DOTA2?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><button type="button" class="btn btn-outline-info">Twitter</button></a>
+                    <a href="https://www.tiktok.com/tag/dota2?lang=en"><button type="button" class="btn btn-outline-warning">Tiktok</button></a>
                 </div>
             </div>
         </div>
+
+</div>
+            
+
+
+       
 
 
             
@@ -239,6 +278,6 @@
 
 
     
-      
+</div>  
   </body>
 </html>
