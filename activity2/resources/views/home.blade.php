@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
    
-    <title>Bootstrap Example</title>
+    <title>Dota 2 Heroes</title>
+    <link rel="icon" type="image/pic1.png" href="/images/pic1.png">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-
-      <!-- fonts -->
+   
+  
       <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?f amily=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/homecss.css">
+  
 
    
 
@@ -27,7 +31,7 @@
         
     <nav class="navbar navbar-expand-lg navbar-dark">
    
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="home">
         <img class="logo" src="{{asset('images/pic1.png')}}" alt="" width="70" height="70">
         Dota 2 Heroes
@@ -64,20 +68,48 @@
                 <li><a class="dropdown-item" href="/services3">Services3</a></li>
               </ul>
             </li>
-
-
           </ul>
+
+         <div class="sea">
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form> 
+          </div>
+
+
+
+
+
+          <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a  class="nav-link active" aria-current="page" href="/home">Log in</a>
+            </li>
+
+            <li class="nav-item">
+              <a  class="nav-link active" aria-current="page" href="/home">Sign up</a>
+            </li>
+          </ul> -->
+
+          <a href="#"><button type="button" class="btn btn-outline-info">Log in</button></a> &nbsp 
+          <a href="#"><button type="button" class="btn btn-outline-warning">Sign up</button></a>
+
+
+
+
+      
+          
         </div>
       </div>
+      
     </nav>
+    
 
     
 
   <main class="container text-white">
+
+
 
     <p>From magical tacticians to fierce brutes and cunning rogues, Dota 2's hero pool is massive and limitlessly diverse. </br>  Unleash incredible abilities and devastating ultimates on your way to victory.</p>
     <h1>CHOOSE YOUR HERO</h1>
@@ -250,7 +282,6 @@
             <div class="row text-center">
                 <div class="col">
                     <p class="text-white">Contact Us</p>
-                    <!-- <button class="btn success">Success</button> -->
                     <a href="https://www.facebook.com/dota2/"><button type="button" class="btn btn-outline-primary">Facebook</button></a>
                     <a href="https://twitter.com/DOTA2?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><button type="button" class="btn btn-outline-info">Twitter</button></a>
                     <a href="https://www.tiktok.com/tag/dota2?lang=en"><button type="button" class="btn btn-outline-warning">Tiktok</button></a>

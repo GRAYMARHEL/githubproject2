@@ -41,10 +41,4 @@ Route::get('/services3', function () {
     return view('services3');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
 
-Route::get('/try', function () {
-    return view('try');
-});
