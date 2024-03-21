@@ -17,7 +17,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?f amily=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/homecss.css">
+  <link rel="stylesheet" href="css/home.css"> 
   
 
    
@@ -48,7 +48,7 @@
         
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a  class="nav-link active" aria-current="page" href="/home">Home</a>
+              <a  class="nav-link active" aria-current="page" href="home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#contactus">Contact Us</a>
@@ -77,28 +77,9 @@
           </form> 
           </div>
 
-
-
-
-
-          <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a  class="nav-link active" aria-current="page" href="/home">Log in</a>
-            </li>
-
-            <li class="nav-item">
-              <a  class="nav-link active" aria-current="page" href="/home">Sign up</a>
-            </li>
-          </ul> -->
-
-          <a href="#"><button type="button" class="btn btn-outline-info">Log in</button></a> &nbsp 
-          <a href="#"><button type="button" class="btn btn-outline-warning">Sign up</button></a>
-
-
-
-
-      
-          
+          <a href="login"><button type="button" class="btn btn-outline-info">Log out</button></a> &nbsp 
+        
+         
         </div>
       </div>
       
